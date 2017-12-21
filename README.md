@@ -18,6 +18,19 @@
     echo 'Hola mundo'
 ```
 
+## Variables
+- Las variables deberán siempre que sea posible pertenecer a un ámbito local
+- Usar la cantidad justa de variables globales
+- Declarar variables globales al principio del script
+- Declarar las constantes globales antes de las varibles, al principio del script
+```bash
+    # Variable Global
+    i=foo
+
+    # Variable local
+    local i=foo
+```
+
 ## Funciones
 - Las funciones no llevarán la palabra reservada **function**
 - En todo momento se ha de procurar usar variables locales.
@@ -33,19 +46,6 @@
     foo() {
         local i=foo # Variable local a la función (preferible)
     }
-```
-
-## Variables
-- Las variables deberán siempre que sea posible pertenecer a un ámbito local
-- Usar la cantidad justa de variables globales
-- Declarar variables globales al principio del script
-- Declarar las constantes globales antes de las varibles, al principio del script
-```bash
-    # Variable Global
-    i=foo
-
-    # Variable local
-    local i=foo
 ```
 
 ## Declaraciones de bloque

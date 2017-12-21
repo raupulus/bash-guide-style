@@ -47,7 +47,9 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Usar la cantidad justa de variables globales
 - Declarar variables globales al principio del script
 - Declarar las constantes globales antes de las varibles, al principio del script
+- No usar **let** ni **readonly** para declarar variables
 - Todas las variables deberán ir encerradas entre comillas dobles cuando se llamen incorporadas a un comando.
+- Variables dentro de una condición a comprobar **[[ -d $variable ]]** no se encierran entre comillas
 ```bash
     # Variable Global
     i='foo'
@@ -58,6 +60,15 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     # Llamar a la variable
     echo "La variable vale $i"
     echo "$i"
+
+    # Variable como condición a comprobar
+    if [[ -n $foo ]]; then   # No es necesario encerar entre comillas
+
+    echo "$foo" # Es necesario encerrarlas entre comillas
+
+    # Asignación a otra variable
+    j=$foo # Tampoco es necesario encerrarla entre comillas
+fi
 ```
 
 ## Condiciones y comprobaciones que devuelven boolean

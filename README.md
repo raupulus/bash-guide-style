@@ -236,6 +236,39 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     modulos=(modulo1 modulo2 modulo3)
     install "${modulos[@]}" # Pasa todos los argumentos del array de una vez
 ```
+## Declarar bloques con múltiples condiciones o rutas extensas
+- Cuando declaremos un bloque el cual tendrá muchas condiciones, rutas extensas incluso si son muchos parámetros se insertarán en la siguiente línea.
+- Un bucle while llevará cada condición alineada comenzando debajo de la declaración, tendrá un booleano por línea.
+- Un bucle for llevará cada condición en una línea distinta de forma alineada pero terminando con una barra invertida.
+- Un if con múltiples condiciones tendrá alineadas cada una de estas en otra línea terminando en el operador de concatenación como final de línea.
+```bash
+    # Bucle while con diversas condiciones
+    while
+        condición1
+        condición2
+        condición3
+    do
+        ...
+    done
 
-## Preguntas con Bucle infinito
-- Usar patrones regulares siempre q
+    # Bucle for con múltiples rutas → Debe llevar barra invertida al final
+    for x in ruta/a/dir/ \
+             ruta/a/dir1/ \
+             ruta/a/dir2/ \
+             ruta/a/dir3/
+    do
+        ...
+    done
+
+    # Condicional if con múltiples condiciones
+    if  ( false |
+          true )  &&
+       [[ 2 > 1 ]]
+    then
+        echo 'Todo se ha cumplido'
+    else
+        echo 'No se ha cumplido algo'
+    fi
+
+
+```

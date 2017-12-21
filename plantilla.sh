@@ -16,17 +16,17 @@
 ############################
 ##       CONSTANTES       ##
 ############################
-amarillo="\033[1;33m"
-azul="\033[1;34m"
-blanco="\033[1;37m"
-cyan="\033[1;36m"
-gris="\033[0;37m"
-magenta="\033[1;35m"
-rojo="\033[1;31m"
-verde="\033[1;32m"
+AM="\033[1;33m" # Color Amarillo
+AZ="\033[1;34m" # Color Azul
+BL="\033[1;37m" # Color Blanco
+CY="\033[1;36m" # Color Cyan
+GR="\033[0;37m" # Color Gris
+MA="\033[1;35m" # Color Magenta
+RO="\033[1;31m" # Color Rojo
+VE="\033[1;32m" # Color Verde
 
-WORKSCRIPT=''
-USER=$(whoami)
+WORKSCRIPT='' # Directorio principal del script
+USER=$(whoami) # Usuario que ejecuta el script
 
 ###########################
 ##       VARIABLES       ##

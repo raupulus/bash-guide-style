@@ -34,3 +34,16 @@ Mi guía de estilos para Bash (Español)
         local i=foo # Variable local a la función (preferible)
     }
 '''
+
+## Variables
+- Las variables deberán siempre que sea posible pertenecer a un ámbito local
+- Usar la cantidad justa de variables globales
+- Declarar variables globales al principio del script
+- Declarar las constantes globales antes de las varibles, al principio del script
+'''bash
+    # Variable Global
+    i=foo
+
+    # Variable local
+    local i=foo
+'''

@@ -1,6 +1,9 @@
 # Bash_Style_Guide
 - Mi guía de estilos para Bash (Español)
 
+## Decisiones en general
+- Cuando sea necesario ejecutar una consola/terminal/intérprete nunca se usará enlaces como **"sh"** ya que puede apuntar a otro intérprete de órdenes distinto a bash (*Esta guía de estilos es para bash*)
+
 ## Espacios en vez de tabulaciones
 - Usar 4 espacios y nunca usar tabulaciones.
 

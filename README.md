@@ -152,3 +152,24 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     # BIEN:
     foo=$(whoami)
 ```
+
+## Arrays
+- Usar arrays en vez de listas de cadenas separadas por espacios, líneas en blanco, tabulaciones...
+- En muchas ocasiones trabajaremos incluso mejor con arrays y no necesitaremos bucles for si el comando admite múltiples argumentos aunque también podemos usarlos de esta forma.
+```bash
+    # MAL:
+    modulos='modulo1 modulo2 modulo3'
+    for modulo in $modulos; do
+        install "$modulo"
+    done
+
+    # BIEN:
+    modulos=(modulo1 modulo2 modulo3)
+    for modulo in "${modulos[@]}"; do
+        install "$modulo"
+    done
+
+    # AÚN MEJOR:
+    modulos=(modulo1 modulo2 modulo3)
+    install "${modulos[@]}" # Pasa todos los argumentos del array de una vez
+```

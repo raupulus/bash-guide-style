@@ -4,20 +4,27 @@
 ## Estructura de los script
 Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio.
 - Declaración de intérprete de comandos
+- Codificación UTF-8 en un comentario
 - Nombre de autor/es
 - Contacto de autor/es
 - Licencia del script (Recomiendo GPLv3)
+- Instrucciones
 - Constantes agrupando las que se relacionan deberán existir las siguientes:
     - WORKSCRIPT → Su valor será el directorio principal del script.
     - USER → Usuario
 - Variables agrupando las que se relacionan
 - Funciones
+- Órdenes y funcionamiento del programa
+- Salida correcta
 
 ## Decisiones en general
 - Cuando sea necesario ejecutar una consola/terminal/intérprete nunca se usará enlaces como **"sh"** ya que puede apuntar a otro intérprete de órdenes distinto a bash (*Esta guía de estilos es para bash*).
 - Evitar el uso de herramientas externas a bash siempre que sea posible.
 - Usar comillas dobles solo cuando se necesite expandir una variable.
 - Usar comillas simples en todo momento que sea posible y no haya que expandir variables.
+- Nunca usar **eval** en el propio script ya que existen otras formas en el lenguaje
+- En comandos/órdenes que puedan fallar controlar errores como por ejemplo **cd /some/path || exit**
+- La codificación tiene que ser UTF-8
 
 ## Espacios en vez de tabulaciones
 - Usar 4 espacios y nunca usar tabulaciones.

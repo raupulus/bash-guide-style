@@ -40,12 +40,13 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 ## Comentarios
 - El código para deshabilitarlo tendrá solo 1 símbolo **"#"**
 - Los comentarios como tal tendrán dos símbolos **"##"** y estarán separados por un espacio desde carácter para comentar **"\#"**.
-- Los comentarios en línea, es decir, detrás de código en la misma línea tendrá dos espacos de separación desde el código, luego dos **"##"** otro espacio y el comentario.
-- Los comentarios en línea de código o variables relacionados pueden tener más de dos líneas para quedar igualados en altura.
+- Los comentarios en línea, es decir, detrás de código en la misma línea tendrá dos espacios de separación desde el código, luego dos **"##"** otro espacio y el comentario.
+- Los comentarios en línea de código o variables relacionados pueden tener más de dos espacios para quedar igualados en altura.
 ```bash
     ## Este comentario describe lo que realiza la siguiente variable
     #variable='Variable Comentada'  ## Comentario en la misma línea
     #variable2='Comentario'         ## Otro comentario relacionado
+    variable3='Comentario'          ## Este también
 ```
 
 ## Limitación de columnas
@@ -277,6 +278,4 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     else
         echo 'No se ha cumplido algo'
     fi
-
-
 ```

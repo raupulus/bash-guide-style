@@ -87,6 +87,15 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     j=$foo # Tampoco es necesario encerrarla entre comillas
 ```
 
+## Inicialización de variables
+- Para iniciar variables sin saber aún que valor van a tomar usaremos los valores más pequeños (vacío, 0)
+```bash
+    my_input=''   # Cadena vacía, tipo String
+    my_array=()   # Array vacío
+    my_number=0   # Número vacío, tipo Integer
+    my_float=0.0  # Número vacío, tipo Float
+```
+
 ## Constantes
 - Las constantes se declaran en mayúsculas
 - Siempre deberán ser declaradas al principio del script, justo antes que las variables
@@ -224,3 +233,6 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     modulos=(modulo1 modulo2 modulo3)
     install "${modulos[@]}" # Pasa todos los argumentos del array de una vez
 ```
+
+## Preguntas con Bucle infinito
+- Usar patrones regulares siempre q

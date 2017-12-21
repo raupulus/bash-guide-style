@@ -2,7 +2,7 @@
 - Mi guía de estilos para Bash (Español)
 
 ## Estructura de los script
-Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio.
+Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio https://github.com/fryntiz/Bash_Style_Guide/blob/master/plantilla.sh.
 - Declaración de intérprete de comandos
 - Codificación UTF-8 en un comentario
 - Nombre de autor/es

@@ -41,6 +41,22 @@
     local i=foo
 ```
 
+## Condiciones y comprobaciones que devuelven boolean
+- Se han de encerrar siempre en dobles corchentes "[[ test ]]"
+- Debe existir un espacio entre la comprobación y el corchete "[[ -d dir ]]"
+- No usar en ningún momento solo 1 corchete "[ test ]" ← MAL
+```bash
+    # MAL :
+    if [ -d directorio ]; then
+        ...
+    fi
+
+    # BIEN:
+    if [[ -d directorio ]]; then
+        ...
+    fi
+```
+
 ## Funciones
 - Las funciones no llevarán la palabra reservada **function**
 - En todo momento se ha de procurar usar variables locales.

@@ -143,6 +143,18 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     done
 ```
 
+## Evitar usar el comando **"cat"** cuando no sea necesario
+```bash
+    # MAL:
+    cat archivo | grep foo
+
+    # BIEN:
+    grep foo < archivo
+
+    # Mucho mejor
+    grep foo archivo
+```
+
 ## Resultado de comando en variable
 - Para asignar el resultado de un comando a una variable usar siempre **$(comando)**
 ```bash

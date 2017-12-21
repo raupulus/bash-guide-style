@@ -17,3 +17,20 @@ Mi guía de estilos para Bash (Español)
     # BIEN:
     echo 'Hola mundo'
 '''
+
+## Funciones
+- Las funciones no llevarán la palabra reservada **function**
+- En todo momento se ha de procurar usar variables locales.
+- Las variables globales se usarán lo menos posible.
+- Una función no puede generar efectos colaterales y retornar (Una cosa u otra).
+'''bash
+    # MAL:
+    function foo {
+        i=foo # Variable declarada como global
+    }
+
+    # BIEN:
+    foo() {
+        local i=foo # Variable local a la función (preferible)
+    }
+'''

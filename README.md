@@ -38,6 +38,7 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Usar 4 espacios y nunca usar tabulaciones.
 
 ## Comentarios
+- Los comentarios estarán separados por un espacio del carácter para comentar **"\#"**.
 
 ## Limitación de columnas
 - No exceder de los 80 carácteres cada línea.

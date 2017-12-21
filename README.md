@@ -3,6 +3,7 @@
 
 ## Estructura de los script
 Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio.
+- Declaración de intérprete de comandos
 - Nombre de autor/es
 - Contacto de autor/es
 - Licencia del script (Recomiendo GPLv3)

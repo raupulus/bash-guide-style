@@ -1,5 +1,13 @@
 # Bash_Style_Guide
-- Mi guía de estilos para Bash (Español)
+Con esta guía de estilos personal pretendo estandarizar la creación de mis propios scripts para que vayan todos uniformes siguiendo unas reglas y un patrón.
+
+El motivo de realizar esta guía es que no encontré una que me gustara lo suficiente, pero sobre todo al no encontrar ninguna estándar y bien aceptada por la comunidad como tal.
+
+Posiblemente hayan guías mejores, soluciones mejores o partes que no gusten demasiado pero esta ha sido mi decisión.
+
+En cualquier caso puedes sugerir cambios mediante **Issues** y serán debatidos o directamente aceptados si es alguna corrección demostrable.
+
+Todo esto es orientativo
 
 ## Estructura de los script
 Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio https://github.com/fryntiz/Bash_Style_Guide/blob/master/plantilla.sh.
@@ -78,6 +86,11 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     j=$foo # Tampoco es necesario encerrarla entre comillas
 fi
 ```
+
+## Constantes
+- Las constantes se declaran en mayúsculas
+- Siempre deberán ser declaradas al principio del script, justo antes que las variables
+- La sintaxis de una constante será la misma que para una variable y su diferencia será el uso
 
 ## Condiciones y comprobaciones que devuelven boolean
 - Se han de encerrar siempre en dobles corchentes "[[ test ]]"

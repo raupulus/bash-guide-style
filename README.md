@@ -1,6 +1,17 @@
 # Bash_Style_Guide
 - Mi guía de estilos para Bash (Español)
 
+## Estructura de los script
+Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio.
+- Nombre de autor/es
+- Contacto de autor/es
+- Licencia del script (Recomiendo GPLv3)
+- Constantes agrupando las que se relacionan deberán existir las siguientes:
+    - WORKSCRIPT → Su valor será el directorio principal del script.
+    - USER → Usuario
+- Variables agrupando las que se relacionan
+- Funciones
+
 ## Decisiones en general
 - Cuando sea necesario ejecutar una consola/terminal/intérprete nunca se usará enlaces como **"sh"** ya que puede apuntar a otro intérprete de órdenes distinto a bash (*Esta guía de estilos es para bash*)
 - Evitar el uso de herramientas externas a bash siempre que sea posible

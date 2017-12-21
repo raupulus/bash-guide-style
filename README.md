@@ -1,5 +1,5 @@
 # Bash_Style_Guide
-Mi guía de estilos para Bash (Español)
+- Mi guía de estilos para Bash (Español)
 
 ## Espacios en vez de tabulaciones
 - Usar 4 espacios y nunca usar tabulaciones.
@@ -46,4 +46,29 @@ Mi guía de estilos para Bash (Español)
 
     # Variable local
     local i=foo
+```
+
+## Declaraciones de bloque
+- Las declaraciones de bloque separarán mediante **";"** el delimitador de bloque correspondiente (then, do...)
+```bash
+    # MAL :
+    if true
+    then
+        ...
+    fi
+
+    true && {
+        ...
+    }
+
+    # BIEN:
+    # Condicional if
+    if true; then
+        ...
+    fi
+
+    # Bucle while
+    while true; do
+        ...
+    done
 ```

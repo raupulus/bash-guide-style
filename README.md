@@ -116,3 +116,13 @@
         ...
     done
 ```
+
+## Resultado de comando en variable
+- Para asignar el resultado de un comando a una variable usar siempre **$(comando)**
+```bash
+    # MAL:
+    foo=`whoami`
+
+    # BIEN:
+    foo=$(whoami)
+```

@@ -9,7 +9,7 @@ En cualquier caso puedes sugerir cambios mediante **Issues** y serán debatidos 
 
 Todo esto es orientativo
 
-## Estructura de los script
+## Estructura de los scripts
 Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio https://github.com/fryntiz/Bash_Style_Guide/blob/master/plantilla.sh.
 - Declaración de intérprete de comandos
 - Codificación UTF-8 en un comentario
@@ -44,7 +44,7 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - No exceder de los 80 carácteres cada línea.
 
 ## Espacios entre filas
-- No introducir 2 líneas vacías seguidas, es decir, no más de 1 línea en blanco por fila
+- No introducir 2 líneas vacías seguidas, es decir, no más de 1 línea en blanco entre bloque, instrucción, declaración o cualquier otro elemento
 - Detrás de cada bloque habrá una línea en blanco
 - Si se declaran variables o constantes globales solo habrá nuevas líneas cuando se vaya a separar variables que no se agrupen en relación con las anteriores, es decir, separar bloques de variables que no tengan relación con una línea en blanco de por medio pero solo en el caso que haya muchas variables
 
@@ -85,7 +85,6 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 
     # Asignación a otra variable
     j=$foo # Tampoco es necesario encerrarla entre comillas
-fi
 ```
 
 ## Constantes

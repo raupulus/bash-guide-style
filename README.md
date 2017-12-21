@@ -121,6 +121,9 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Las funciones no llevarán la palabra reservada **function**
 - En todo momento se ha de procurar usar variables locales.
 - Las variables globales se usarán lo menos posible.
+- El nombre de la función será camelCase, el cual empieza en minúsculas y cada palabra será capitalizada.
+- El nombre de la función tiene que ser lo más descriptivo posible.
+- El nombre de la función no puede ser igual que una variable, constante o comando.
 - Una función no puede generar efectos colaterales y retornar (Una cosa u otra).
 ```bash
     # MAL:

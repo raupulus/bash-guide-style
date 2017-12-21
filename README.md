@@ -4,8 +4,15 @@
 ## Espacios en vez de tabulaciones
 - Usar 4 espacios y nunca usar tabulaciones.
 
+## Comentarios
+
 ## Limitación de columnas
 - No exceder de los 80 carácteres cada línea.
+
+## Espacios entre filas
+- No introducir 2 líneas vacías seguidas, es decir, no más de 1 línea en blanco por fila
+- Detrás de cada bloque habrá una línea en blanco
+- Si se declaran variables o constantes globales solo habrá nuevas líneas cuando se vaya a separar variables que no se agrupen en relación con las anteriores, es decir, separar bloques de variables que no tengan relación con una línea en blanco de por medio pero solo en el caso que haya muchas variables
 
 ## Finales de línea
 - No usar punto y coma en finales de línea.

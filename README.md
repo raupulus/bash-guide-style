@@ -50,10 +50,14 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Todas las variables deberán ir encerradas entre comillas dobles cuando se llamen incorporadas a un comando.
 ```bash
     # Variable Global
-    i=foo
+    i='foo'
 
     # Variable local
-    local i=foo
+    local i='foo'
+
+    # Llamar a la variable
+    echo "La variable vale $i"
+    echo "$i"
 ```
 
 ## Condiciones y comprobaciones que devuelven boolean

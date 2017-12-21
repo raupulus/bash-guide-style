@@ -3,6 +3,7 @@
 
 ## Decisiones en general
 - Cuando sea necesario ejecutar una consola/terminal/intérprete nunca se usará enlaces como **"sh"** ya que puede apuntar a otro intérprete de órdenes distinto a bash (*Esta guía de estilos es para bash*)
+- Evitar el uso de herramientas externas a bash siempre que sea posible
 
 ## Espacios en vez de tabulaciones
 - Usar 4 espacios y nunca usar tabulaciones.

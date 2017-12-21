@@ -38,7 +38,12 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Usar 4 espacios y nunca usar tabulaciones.
 
 ## Comentarios
-- Los comentarios estarán separados por un espacio del carácter para comentar **"\#"**.
+- El código para deshabilitarlo tendrá solo 1 símbolo **"#"**
+- Los comentarios como tal tendrán dos símbolos **"##"** y estarán separados por un espacio desde carácter para comentar **"\#"**.
+```bash
+    ## Este comentario describe lo que realiza la siguiente variable
+    #variable='Variable Comentada'
+```
 
 ## Limitación de columnas
 - No exceder de los 80 carácteres cada línea.

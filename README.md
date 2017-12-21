@@ -118,6 +118,20 @@
     done
 ```
 
+## Listar sin usar el comando **"ls"**
+- No se debe usar el comando ls en bucles (loop) ya que es peligroso, en su lugar usar el selector asterisco "\*" en los ejemplos vemos como obtener el mismo resultado.
+```bash
+    # MAL:
+    for f in $(ls); do
+        ...
+    done
+
+    # BIEN:
+    for f in *; do
+        ...
+    done
+```
+
 ## Resultado de comando en variable
 - Para asignar el resultado de un comando a una variable usar siempre **$(comando)**
 ```bash

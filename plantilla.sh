@@ -6,8 +6,11 @@
 # @license    https://wwww.gnu.org/licenses/gpl.txt
 # @email      tecnico@fryntiz.es
 # @web        www.fryntiz.es
-# @github     https://github.com/fryntiz/
+# @github     https://github.com/fryntiz
+# @gitlab     https://gitlab.com/fryntiz
 #
+#             Guía de estilos aplicada:
+# @style      https://github.com/fryntiz/Bash_Style_Guide
 
 ############################
 ##     INSTRUCCIONES      ##
@@ -25,7 +28,7 @@ MA="\033[1;35m" # Color Magenta
 RO="\033[1;31m" # Color Rojo
 VE="\033[1;32m" # Color Verde
 
-WORKSCRIPT='' # Directorio principal del script
+WORKSCRIPT=$(pwd) # Directorio principal del script
 USER=$(whoami) # Usuario que ejecuta el script
 
 ###########################

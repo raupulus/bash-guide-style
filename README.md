@@ -98,3 +98,21 @@
         ...
     done
 ```
+
+## Secuencias
+- Las secuencias se deben generar usando métodos propios de bash y no con aplicaciones externas o métodos que puedan ser específicos de un ámbito, distribución o requieran la instalación o uso de herramientas de terceros lo cual podría generar conflictos y disminuirá la compatibilidad.
+```bash
+    # MAL:
+    for f in $(seq 1 10); do
+        ...
+    done
+
+    # BIEN:
+    for f in {1..10}; do
+        ...
+    done
+
+    for ((i = 0; i < 10; i++)); do
+        ...
+    done
+```

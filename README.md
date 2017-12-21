@@ -13,8 +13,10 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Funciones
 
 ## Decisiones en general
-- Cuando sea necesario ejecutar una consola/terminal/intérprete nunca se usará enlaces como **"sh"** ya que puede apuntar a otro intérprete de órdenes distinto a bash (*Esta guía de estilos es para bash*)
-- Evitar el uso de herramientas externas a bash siempre que sea posible
+- Cuando sea necesario ejecutar una consola/terminal/intérprete nunca se usará enlaces como **"sh"** ya que puede apuntar a otro intérprete de órdenes distinto a bash (*Esta guía de estilos es para bash*).
+- Evitar el uso de herramientas externas a bash siempre que sea posible.
+- Usar comillas dobles solo cuando se necesite expandir una variable.
+- Usar comillas simples en todo momento que sea posible y no haya que expandir variables.
 
 ## Espacios en vez de tabulaciones
 - Usar 4 espacios y nunca usar tabulaciones.
@@ -45,6 +47,7 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Usar la cantidad justa de variables globales
 - Declarar variables globales al principio del script
 - Declarar las constantes globales antes de las varibles, al principio del script
+- Todas las variables deberán ir encerradas entre comillas dobles cuando se llamen incorporadas a un comando.
 ```bash
     # Variable Global
     i=foo

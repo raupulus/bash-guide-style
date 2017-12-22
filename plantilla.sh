@@ -8,6 +8,7 @@
 ## @web        www.fryntiz.es
 ## @github     https://github.com/fryntiz
 ## @gitlab     https://gitlab.com/fryntiz
+## @twitter    https://twitter.com/fryntiz
 ##
 ##             Guía de estilos aplicada:
 ## @style      https://github.com/fryntiz/Bash_Style_Guide

@@ -1,6 +1,8 @@
 # Bash_Style_Guide
 Con esta guía de estilos personal pretendo estandarizar la creación de mis propios scripts para que vayan todos uniformes siguiendo unas reglas y un patrón.
 
+![Guía de estilos Bash Logo](/Logo-Guía-de-estilos-bash.png)
+
 El motivo de realizar esta guía es que no encontré una que me gustara lo suficiente, pero sobre todo al no encontrar ninguna estándar y bien aceptada por la comunidad como tal.
 
 Posiblemente hayan guías mejores, soluciones mejores o partes que no gusten demasiado pero esta ha sido mi decisión.

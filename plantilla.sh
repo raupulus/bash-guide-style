@@ -33,8 +33,8 @@ MA="\033[1;35m"  ## Color Magenta
 RO="\033[1;31m"  ## Color Rojo
 VE="\033[1;32m"  ## Color Verde
 
-WORKSCRIPT=$(pwd)  ## Directorio principal del script
-USER=$(whoami)     ## Usuario que ejecuta el script
+WORKSCRIPT=$pwd  ## Directorio principal del script
+USER=$(whoami)   ## Usuario que ejecuta el script
 
 ###########################
 ##       VARIABLES       ##

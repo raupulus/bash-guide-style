@@ -17,6 +17,7 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Contacto de autor/es
 - Licencia del script (Recomiendo GPLv3)
 - Instrucciones
+- Importaciones de scripts o recursos mediante **"source"**
 - Constantes agrupando las que se relacionan deberán existir las siguientes:
     - WORKSCRIPT → Su valor será el directorio principal del script.
     - USER → Usuario

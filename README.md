@@ -91,12 +91,12 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     echo "$i"
 
     # Variable como condición a comprobar
-    if [[ -n $foo ]]; then   # No es necesario encerar entre comillas
+    if [[ -n $foo ]]; then   ## No es necesario encerrar entre comillas
 
-    echo "$foo" # Es necesario encerrarlas entre comillas
+    echo "$foo"  ## Es necesario encerrarlas entre comillas
 
     # Asignación a otra variable
-    j=$foo # Tampoco es necesario encerrarla entre comillas
+    j=$foo  ## Tampoco es necesario encerrarla entre comillas
 ```
 
 ## Inicialización de variables

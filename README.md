@@ -21,6 +21,7 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Instrucciones
 - Importaciones de scripts o recursos mediante **"source"**
 - Constantes agrupando las que se relacionan deberán existir las siguientes:
+    - VERSION → La versión actual del script con el formato "versión.revisión.parche" empezando por versión "0" mientras esté en desarrollo y constantes modificaciones.
     - WORKSCRIPT → Su valor será el directorio principal del script.
     - USER → Usuario
 - Variables agrupando las que se relacionan

@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 # -*- ENCODING: UTF-8 -*-
 ##
-## @author     Raúl Caro Pastorino
+## @date       01/01/2018
 ## @copyright  Copyright © 2017 Raúl Caro Pastorino
 ## @license    https://wwww.gnu.org/licenses/gpl.txt
+## @version    0.0.1
+## @bash       4.2 or later
+##
+## @author     Raúl Caro Pastorino
 ## @email      tecnico@fryntiz.es
 ## @web        www.fryntiz.es
 ## @github     https://github.com/fryntiz

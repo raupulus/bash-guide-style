@@ -1,6 +1,8 @@
 # Bash_Style_Guide
 Con esta guía de estilos personal pretendo estandarizar la creación de mis propios scripts para que vayan todos uniformes siguiendo unas reglas y un patrón.
 
+![Guía de estilos Bash Logo](/Logo-Guía-de-estilos-bash.png)
+
 El motivo de realizar esta guía es que no encontré una que me gustara lo suficiente, pero sobre todo al no encontrar ninguna estándar y bien aceptada por la comunidad como tal.
 
 Posiblemente hayan guías mejores, soluciones mejores o partes que no gusten demasiado pero esta ha sido mi decisión.
@@ -19,6 +21,7 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
 - Instrucciones
 - Importaciones de scripts o recursos mediante **"source"**
 - Constantes agrupando las que se relacionan deberán existir las siguientes:
+    - VERSION → La versión actual del script con el formato "versión.revisión.parche" empezando por versión "0" mientras esté en desarrollo y constantes modificaciones.
     - WORKSCRIPT → Su valor será el directorio principal del script.
     - USER → Usuario
 - Variables agrupando las que se relacionan
@@ -89,12 +92,12 @@ Directrices comunes para todos los scripts en el orden de aparición. Puede apre
     echo "$i"
 
     # Variable como condición a comprobar
-    if [[ -n $foo ]]; then   # No es necesario encerar entre comillas
+    if [[ -n $foo ]]; then   ## No es necesario encerrar entre comillas
 
-    echo "$foo" # Es necesario encerrarlas entre comillas
+    echo "$foo"  ## Es necesario encerrarlas entre comillas
 
     # Asignación a otra variable
-    j=$foo # Tampoco es necesario encerrarla entre comillas
+    j=$foo  ## Tampoco es necesario encerrarla entre comillas
 ```
 
 ## Inicialización de variables

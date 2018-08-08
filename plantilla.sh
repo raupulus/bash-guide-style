@@ -1,21 +1,42 @@
 #!/usr/bin/env bash
 # -*- ENCODING: UTF-8 -*-
-##
-## @date       01/01/2018
-## @copyright  Copyright © 2017 Raúl Caro Pastorino
-## @license    https://wwww.gnu.org/licenses/gpl.txt
-## @version    0.0.1
-## @bash       4.2 or later
-##
+
 ## @author     Raúl Caro Pastorino
-## @email      tecnico@fryntiz.es
-## @web        www.fryntiz.es
-## @github     https://github.com/fryntiz
+## @email      dev@fryntiz.es
+## @web        https://fryntiz.es
 ## @gitlab     https://gitlab.com/fryntiz
+## @github     https://github.com/fryntiz
 ## @twitter    https://twitter.com/fryntiz
-##
+## @telegram   https://t.me/fryntiz
+
+## @bash        4.2 or later
+## Create Date: 2018
+## Project Name:
+## Description:
+## Dependencies:
+
 ##             Guía de estilos aplicada:
-## @style      https://github.com/fryntiz/Bash_Style_Guide
+## @style      https://gitlab.com/fryntiz/bash-guide-style
+
+## Revision 0.01 - File Created
+## Additional Comments:
+
+## @license    https://wwww.gnu.org/licenses/gpl.txt
+## @copyright  Copyright © 2018 Raúl Caro Pastorino
+##
+## This program is free software: you can redistribute it and/or modify
+## it under the terms of the GNU General Public License as published by
+## the Free Software Foundation, either version 3 of the License, or
+## (at your option) any later version.
+##
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+##
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see <http://www.gnu.org/licenses/>
+
 
 ############################
 ##     INSTRUCCIONES      ##
@@ -38,21 +59,20 @@ RO="\033[1;31m"  ## Color Rojo
 VE="\033[1;32m"  ## Color Verde
 CL="\e[0m"       ## Limpiar colores
 
-VERSION="0.0.0"
+VERSION="0.0.1"
 WORKSCRIPT=$PWD  ## Directorio principal del script
 USER=$(whoami)   ## Usuario que ejecuta el script
 
-###########################
-##       VARIABLES       ##
-###########################
+############################
+##       VARIABLES        ##
+############################
 
-###########################
-##       FUNCIONES       ##
-###########################
+############################
+##       FUNCIONES        ##
+############################
 
-###########################
-##       EJECUCIÓN       ##
-###########################
-
+############################
+##       EJECUCIÓN        ##
+############################
 
 exit 0

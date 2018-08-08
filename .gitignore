@@ -1,0 +1,12 @@
+/NOTAS.txt
+/notas.txt
+tmp.txt
+/tmp.txt
+/TMP/*
+/test.sh
+test.sh
+tmp/*
+/tmp/*
+/.idea
+.ropeproject
+__pycache__

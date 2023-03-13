@@ -12,7 +12,7 @@ En cualquier caso puedes sugerir cambios mediante **Issues** y serán debatidos 
 Todo esto es orientativo
 
 ## Estructura de los scripts
-Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio https://gitlab/fryntiz/bash-guide-style/blob/master/plantilla.sh.
+Directrices comunes para todos los scripts en el orden de aparición. Puede apreciarse mejor aún con la plantilla de ejemplo de este repositorio https://gitlab/raupulus/bash-guide-style/blob/master/plantilla.sh.
 - Declaración de intérprete de comandos
 - Codificación UTF-8 en un comentario
 - Nombre de autor/es
